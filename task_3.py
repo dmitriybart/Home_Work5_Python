@@ -7,8 +7,7 @@ def Step_maps(step,sign):
                     place[place.index(step)] = sign
                     valid = True
                 else:
-                    print("Эта ячейка уже занята! Введите другую: ")
-                    step = int(input())
+                    step = int(input("Эта ячейка уже занята! Введите другую: "))
                     valid = False
 
 def Сheck_win(place):
