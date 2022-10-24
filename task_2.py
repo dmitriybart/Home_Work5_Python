@@ -28,7 +28,7 @@ else:
 
 print(f'и первым ходит - {player_1} !')
 
-total_sweets = 200
+total_sweets = 2021
 max_sweets = 28
 index = 0
 
@@ -50,7 +50,7 @@ while total_sweets > 0:
             print(f'Осталось {total_sweets} штук конфет')
             index = 1
     
-    if index == 1:
+    else:
         if total_sweets < max_sweets:
             step = int(input(f'{player_2} сколько конфет возьмешь?(не больше {total_sweets} штук): '))
             if step > total_sweets :
